@@ -1,0 +1,100 @@
+body {
+    /* background-color: #7fdbda; */
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Architects Daughter', cursive;
+    /* font-size: 90px;                   */
+    /* This is not a dynamic size. But if we use PERCENTAGE instead it becomes dynamic. 100% = 16px = 1em */
+    /* font-size: 5.625em; */
+    /* Instead of em we must use rem because rem size does not get affected by upstream size changes unlike what happens in em or %
+    being DYNAMIC */
+    font-size: 5.625rem;
+    color: #66BFBF;
+
+
+}
+h2{
+    margin:0;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2;
+
+    font-size: 2rem;
+}
+h3{
+    margin: 0px;
+    color: #11999E;
+}
+a{
+    color:#11999E ;
+}
+
+p {
+    margin: 0px;
+}
+
+.top {
+    background-color: #ddf3f5;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.middle-container {
+    background-color: #a6dcef;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+/* thing to remember use of clear- to clear the use of float and treat the div adjacent to be seperate.  */
+.skill1{
+    float: left;
+    width: 40%;
+    margin-right: 30px;
+}
+.skill2{
+    float: right;
+    width: 40%;
+    margin-left: 30px;
+
+}
+.contact-me{
+        background-color: #f2aaaa;
+}
+
+
+.bottom-container {
+    background-color: #e36387 ;
+
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
